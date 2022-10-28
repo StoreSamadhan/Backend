@@ -1,5 +1,6 @@
 import firebaseAdmin from "firebase-admin";
 
+// store-samadhan-373-firebase-adminsdk-xwgey-221e7ce9e0
 var serviceAccount = require("../../serviceKey.json");
 
 export const firebaseConfig = {
@@ -10,7 +11,6 @@ export const firebaseConfig = {
   storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
   messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
   appId: process.env.FIREBASE_APP_ID,
-  measurementId: process.env.FIREBASE_MEASUREMENT_ID,
 };
 
 export const razorpayKeySecret = process.env.RAZORPAY_KEY_SECRET;

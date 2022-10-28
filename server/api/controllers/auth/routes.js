@@ -4,6 +4,6 @@ import controller from "./controller";
 
 export default express
   .Router()
-  .get("/getUserDetails", authHandler, controller.getUserDetails)
+  .get("/getUserDetails", controller.getUserDetails)
   .post("/signupUser", authHandler, controller.signupUser)
   .post("/signupStorage", authHandler, controller.signupStorage);

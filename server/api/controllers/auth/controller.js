@@ -66,7 +66,7 @@ export class Controller {
         address,
         location,
         aadhar,
-        pan,
+        pan
       );
       return res.status(200).json(response);
     } catch (error) {
